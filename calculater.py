@@ -1,23 +1,23 @@
 class Calculator:
     """Simple calculator for basic arithmetic operations"""
     
-    def add(self, a, b):
+    def add(self, a, b, c):
         """Add two numbers"""
-        return a + b
+        return a + b + c
     
-    def subtract(self, a, b):
+    def subtract(self, a, b, c):
         """Subtract b from a"""
-        return a - b
+        return a - b - c
     
-    def multiply(self, a, b):
+    def multiply(self, a, b, c):
         """Multiply two numbers"""
-        return a * b
+        return a * b * c
     
-    def divide(self, a, b):
+    def divide(self, a, b, c):
         """Divide a by b"""
         if b == 0:
             raise ValueError("Cannot divide by zero")
-        return a / b
+        return a / b / c
 
 
 # Example usage
