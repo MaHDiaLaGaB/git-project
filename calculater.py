@@ -3,7 +3,7 @@ class Calculator:
     
     def add(self, a, b):
         """Add two numbers"""
-        # TODO  a + b
+        return  a + b
     
     def subtract(self, a, b):
         """Subtract b from a"""
