@@ -6,6 +6,10 @@ class Calculator:
         result = a + b
         return result
     
+    def power(self, a, b):
+        """Raise a to the power of b"""
+        return a ** b
+
     def subtract(self, a, b):
         """Subtract b from a"""
         c=a-b
