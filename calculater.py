@@ -5,6 +5,10 @@ class Calculator:
         """Add two numbers"""
         return a + b + c
     
+    def power(self, a, b):
+        """Raise a to the power of b"""
+        return a ** b
+
     def subtract(self, a, b, c):
         """Subtract b from a"""
         return a - b - c
