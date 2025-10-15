@@ -3,7 +3,8 @@ class Calculator:
     
     def add(self, a, b):
         """Add two numbers"""
-        return a + b
+        result = a + b
+        return result
     
     def power(self, a, b):
         """Raise a to the power of b"""
@@ -11,6 +12,8 @@ class Calculator:
 
     def subtract(self, a, b):
         """Subtract b from a"""
+        c=a-b
+        d=b-a
         return a - b
     
     def multiply(self, a, b):
